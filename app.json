@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "enigma-link",
+    "name": "Enigma Link",
     "slug": "enigma-link",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,13 +9,20 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sillydrycoder.enigmalink"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sillydrycoder.enigmalink",
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -32,6 +39,17 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "react-native-ble-plx",
+        {
+          "isBackgroundEnabled": true,
+          "modes": [
+            "peripheral",
+            "central"
+          ],
+          "bluetoothAlwaysPermission": "Allow $(PRODUCT_NAME) to connect to bluetooth devices"
+        }
       ]
     ],
     "experiments": {
@@ -45,6 +63,12 @@
         "projectId": "82e49eb2-5cd2-4c9e-b8c0-9ba8017edfc0"
       }
     },
-    "owner": "sillydrycoder"
+    "owner": "sillydrycoder",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/82e49eb2-5cd2-4c9e-b8c0-9ba8017edfc0"
+    }
   }
 }
