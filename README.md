@@ -1,50 +1,77 @@
-# Welcome to your Expo app 👋
+# Enigma Link - IoT Communication App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Enigma Link** is a lightweight and efficient communication app designed as part of the **Enigma Machine IoT Project**. This app enables seamless, real-time data transfer between IoT devices, leveraging WebSocket technology for secure and reliable communication.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+- **Instant Device Communication:** Real-time data exchange using WebSockets.  
+- **Secure Connections:** Ensures data privacy and integrity with robust encryption mechanisms.  
+- **User-Friendly Interface:** Designed for ease of use and adaptability in various IoT environments.  
+- **Low Resource Usage:** Optimized for resource-constrained devices.  
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 📋 Requirements
 
-In the output, you'll find options to open the app in a
+- Android 6.0+ or iOS 12.0+  
+- Internet access for WebSocket-based communication  
+- Compatible with any WebSocket-enabled IoT device  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Installation
 
-## Get a fresh project
+1. **Download the App:**  
+   - [Google Play Store](#) *(link coming soon)*  
+   - [Apple App Store](#) *(link coming soon)*  
+   - Direct APK Download: [Enigma Link APK](#) *(link coming soon)*  
 
-When you're ready, run:
+2. **Install:** Follow your device's standard installation process.  
 
-```bash
-npm run reset-project
-```
+3. **Permissions:**  
+   - Allow network permissions for the app to communicate with IoT devices.  
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🔧 Configuration
 
-To learn more about developing your project with Expo, look at the following resources:
+### Connect to Your IoT Device
+1. Launch the app and navigate to the **Device Setup** screen.  
+2. Enter the WebSocket server address provided by your IoT setup.  
+3. Configure additional settings such as connection timeout and device-specific credentials if required.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 📚 Usage
 
-Join our community of developers creating universal apps.
+1. Open **Enigma Link** and connect to your WebSocket server.  
+2. Monitor real-time device data in the app dashboard.  
+3. Send commands to devices using the app’s intuitive control interface.  
+4. Use the logs tab to debug and analyze communication flows.  
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🔐 Security Tips
+
+- Use a secure WebSocket (`wss://`) URL for encrypted communication.  
+- Regularly update your app and firmware for enhanced security.  
+
+---
+
+## 📬 Support & Contact
+
+For queries or support, reach out to:  
+- **GitHub:** [sillydrycoder](https://github.com/sillydrycoder)  
+- **Email:** sillydrycoder@gmail.com  
+
+---
+
+## 📜 License
+
+This app is part of the **Enigma Machine IoT Project** and is licensed under the MIT License. See the `LICENSE` file for details.  
+
+---
+
+Build smarter IoT solutions with **Enigma Link**! 🚀
